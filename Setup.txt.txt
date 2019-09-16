@@ -1,0 +1,30 @@
+******************************************************************************************************
+											station-stop-mapper
+******************************************************************************************************
+The station-stop-mapper is a Spring MVC web app built using Spring Boot, Maven, Java 1.8 (using Eclipse IDE)
+
+Note: The web app is built to test only a single station - Great Portland Street Station (NapTAN code 940GZZLUGPS)
+
+Steps to install and run the app
+------------------------------------
+1. Download the source code from the Github link (referred as <SRC> on local drive)
+
+On Eclipse IDE
+2. Build the project on Eclipse IDE by importing the project from <SRC>
+3. Set up JDK and MAVEN if not done already
+4. Perform Maven->Update Project to solve dependencies
+5. Build the project 
+6. Run the EngineTestRunner.java as a Java application
+7. Tomcat will run on server port 8888
+
+Using MAVEN
+2. Run mvn clean package command on the <SRC> folder. This should create the war in <SRC>/target directory
+3. Open command prompt in the <SRC>/target folder and run the command 
+	>java -jar station-stop-mapper-0.0.1-SNAPSHOT
+4. Tomcat will run on server port 8888
+
+
+Check Result
+-------------------------------------
+Open a browser and enter URL http://localhost:8888/arrivals
+The user should see the data for the trains arriving at the station.

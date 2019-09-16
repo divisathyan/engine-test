@@ -1,0 +1,28 @@
+table {
+    border: 10px solid #333;
+    color: yellow;
+    background-color: #111;
+    font-family: monospace;
+}
+td { 
+    padding: 4px; 
+}
+directiontr {
+	background-color: yellow;
+}
+platformtr {
+	background-color: green;
+}
+predictionth {
+	background-color: blue;
+}
+predictiontr {
+	background-color: white;
+}
+.form {
+	background-color: #efefef;
+	width: 400px;
+	height: 50px;
+	border-radius: 7px;
+	padding: 20px;
+}
