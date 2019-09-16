@@ -20,7 +20,7 @@ On Eclipse IDE
 Using MAVEN
 2. Run mvn clean package command on the <SRC> folder. This should create the war in <SRC>/target directory
 3. Open command prompt in the <SRC>/target folder and run the command 
-	>java -jar station-stop-mapper-0.0.1-SNAPSHOT
+	>java -jar station-stop-mapper-0.0.1-SNAPSHOT.war
 4. Tomcat will run on server port 8888
 
 
