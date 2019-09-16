@@ -7,7 +7,7 @@ Note: The web app is built to test only a single station - Great Portland Street
 
 Steps to install and run the app
 ------------------------------------
-1. Download the source code from the Github link (referred as <SRC> on local drive)
+1. Download the source code from the Github link https://github.com/divisathyan/engine-test.git (referred as <SRC> on local drive)
 
 On Eclipse IDE
 2. Build the project on Eclipse IDE by importing the project from <SRC>
